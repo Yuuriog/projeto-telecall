@@ -1,0 +1,208 @@
+body {
+
+    padding: 0;
+
+    margin: 0;
+
+   background-image: url(Imagens/6764484_3436600.jpg);
+   background-size: cover;
+    
+}
+
+#login {
+
+    display: flex;
+
+    align-items: center;
+
+    justify-content: center;
+
+    height: 100vh;
+	
+
+    font-family: sans-serif;
+
+}
+
+.card {
+
+    background-color: white;
+
+    padding: 40px;
+
+    border-radius: 10px;
+
+    width:280px;
+}
+
+.card-header {
+
+    padding-bottom: 50px;
+
+    opacity: 0.8;
+
+    color: #fff;
+
+}
+
+.card-header::after {
+
+    content: "";
+
+    width: 70px;
+
+    height: 1px;
+
+    background-color: #fff;
+
+    display: none;
+
+    margin-top: -17px;
+
+    margin-left: -5px;
+
+}
+
+.card-content label {
+
+    color: #000000;
+
+    font-size: 15px;
+
+    opacity: 100;
+
+}
+
+.card-content-area {
+
+    display: flex;
+
+    flex-direction: column;
+
+    padding:10px 0;
+    
+}
+
+.card-content-area input {
+
+    margin-top: 10px;
+
+    border-radius: 5px;
+
+    padding: 5px;
+
+    background-color: transparent;
+
+    border:none;
+
+    border: 1px solid black;
+
+    outline: none;
+
+    color: black;
+
+}
+
+.card-footer {
+
+    display: flex;
+
+    flex-direction: column;
+
+}
+
+.card-footer .submit{
+
+    width: 100%;
+
+    height: 40px;
+
+    background-color: rgb(197, 8, 8);
+
+    border-radius: 10px;
+
+    border:none;
+
+    color:white;
+
+    margin: 10px 0;
+
+    cursor: pointer;
+
+}
+
+.card-footer .submit:hover{
+
+    background-color: rgb(221, 7, 7);
+
+}    
+
+.card-footer a {
+    
+    
+    text-align: center;
+    
+    font-size: 14px;
+    
+    opacity: 0.8;
+        
+    text-decoration: none;
+    
+    margin-bottom: 5px;
+    
+    color: #000;
+}
+
+.card-footer a:hover{
+
+color: blue;
+
+}
+
+.h1 {
+	color: black;
+
+    text-align: center;
+
+}
+
+.dark-mode {
+    background-color: #242423;
+}
+
+.dark-mode label, a {
+    color: #FFFF;
+}
+
+.dark-mode input {
+    color: #FFFF !important;
+    border: 1px solid white;
+}
+
+.darkmode-button{
+    background-color: #FFFF;
+    padding: 1px;
+    border-radius: 50%;
+    transition: 0.3s;
+    cursor: pointer;
+    right: 0px;
+    position: absolute;
+    z-index: 10;
+}
+
+.darkmode-button:hover {
+    background-color: #FFFF;
+    padding: 1px;
+    scale: 0.95;
+    border-radius: 50%;
+}
+
+.text-dark {
+    color: #FFFF !important;
+}
+
+.dark-mode-container {
+    position: relative;
+    width: 100%;
+    background-color: #e04;
+}

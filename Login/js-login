@@ -1,0 +1,26 @@
+<script>
+    function validarFormulario() {
+        var cpfCnpj = document.getElementById("CPFouCNPJ").value;
+        var senha = document.getElementById("password").value;
+
+        if (cpfCnpj === "" || senha === "") {
+            alert("Por favor, preencha todos os campos.");
+            return false; // Impede o envio do formulário se campos estiverem vazios
+        }
+
+        // Outras validações podem ser adicionadas aqui
+
+        return true; // Permite o envio do formulário se todas as validações passarem
+    }
+</script>
+
+<form class="card" action="/caminho/do/destino" onsubmit="return validarFormulario();">
+
+    <!-- ... (seu código HTML aqui) ... -->
+
+    <div class="card-footer">
+        <input type="submit" value="ENTRAR" class="submit">
+        <a href="../formulario/cadastro.html" class="Cadastra_se">Cadastre-se</a>
+    </div>
+
+</form>

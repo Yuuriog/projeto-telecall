@@ -1,0 +1,109 @@
+
+  .t1-sms{
+    font-size: 50px;
+    color: rgb(0, 183, 255);
+  }
+  .p1-sms{
+    font-size: 18px;
+  }
+
+  input[type="checkbox"]{
+    display: none;
+  }
+
+  .bi-moon-fill{
+    font-size: 1.3rem;
+    cursor: pointer;
+    margin-top: 2px;
+    color: #ffffffb0;
+  }
+
+  .bi-sun-fill{
+    font-size: 1.5rem;
+    cursor: pointer;
+    color: #ffffffbb;
+  }
+
+  .bi-moon-fill{
+    display: none;
+    
+   
+  }
+
+  .dark,
+  .dark header {
+    background-color: #263238;
+    color: #fff;
+    
+  }
+
+.dark .bi-sun-fill{
+  display: none;
+ 
+}
+
+.dark .bi-moon-fill{
+  display: block;
+}
+
+  .dark .card{
+    background-color: #cdcecf;
+   
+  }
+
+ .dark .title{
+  color: #fff;
+ }
+
+.dark .description{
+  color: #919191;
+}
+
+.dark .breadcrumbs{
+  background-color: #263238;
+
+}
+
+.dark .container{
+  background-color: #263238;
+}
+
+.dark #footer .footer-top{
+  background-color: #263238;
+}
+
+.dark .col-md-6{
+  background-color: #263238;
+}
+.dark .card-title{
+  color: #263238;
+}
+.dark .card-body{
+  color: #263238;
+}
+.title1{
+  font-size: 20px;
+}
+
+.dark .title1{
+  color: #fff;
+}
+.dark .icon-box{
+  background-color: #263238;
+}
+.dark .info-box{
+  background-color: #fff;
+}
+
+ .size-slider{
+ margin-top: 10px;
+ margin: 9px;
+ 
+}
+
+button{
+  border: none;
+  background-color: rgba(0, 0, 255, 0);
+  color: #fff;
+  
+}
